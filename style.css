@@ -1,0 +1,72 @@
+nav {
+  box-shadow: 0 0 20px 2px #6b9ba8;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #dbe6e9;
+}
+
+#Portofolio {
+  background-color: #dbe6e9;
+  height: 650px;
+}
+
+footer {
+  background-color: #6b9ba8;
+}
+
+.card {
+  box-shadow: 2px 5px 8px #6b9ba8;
+}
+
+@media only screen and (max-width: 412px) {
+  .card {
+    font-size: small;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .card img {
+    width: 230px;
+    height: 160px;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .card {
+    margin: 20% 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 20% 10%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .card {
+    margin: 10% 26%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 300px;
+    margin: 20% 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card {
+    width: 300px;
+    margin: 20% 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    margin: 10% 120%;
+  }
+}
